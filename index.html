@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GURU STOCKS SIGNAL</title>
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: linear-gradient(270deg, #0a0f2c, #0c1b4d, #08123a);
+  background-size: 600% 600%;
+  animation: gradientMove 12s ease infinite;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  overflow-x: hidden;
+}
+
+/* Gradient Animation */
+@keyframes gradientMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Floating Glow */
+.bg-animation span {
+  position: absolute;
+  display: block;
+  border-radius: 50%;
+  background: rgba(0, 200, 255, 0.12);
+  animation: float 20s linear infinite;
+}
+
+.bg-animation span:nth-child(1) {
+  width: 120px;
+  height: 120px;
+  left: 10%;
+  animation-duration: 18s;
+}
+
+.bg-animation span:nth-child(2) {
+  width: 80px;
+  height: 80px;
+  left: 70%;
+  animation-duration: 22s;
+}
+
+.bg-animation span:nth-child(3) {
+  width: 60px;
+  height: 60px;
+  left: 40%;
+  animation-duration: 25s;
+}
+
+@keyframes float {
+  0% { bottom: -150px; transform: translateX(0); }
+  100% { bottom: 110%; transform: translateX(50px); }
+}
+
+/* Container */
+.container {
+  max-width: 500px;
+  margin: auto;
+  position: relative;
+  z-index: 2;
+}
+
+/* Logo */
+.logo img {
+  width: 140px;
+  border-radius: 12px;
+  border: 2px solid #00d4ff;
+  margin-top: 30px;
+}
+
+/* Heading */
+h1 {
+  font-size: 36px;
+  margin-top: 15px;
+  letter-spacing: 2px;
+}
+
+.subtitle {
+  color: #00e0ff;
+  font-size: 13px;
+  letter-spacing: 3px;
+}
+
+/* Card */
+.card {
+  margin-top: 25px;
+  padding: 25px;
+  background: rgba(255,255,255,0.05);
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+}
+
+.card p {
+  color: #ccc;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+/* Stats */
+.stats {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.stats div {
+  width: 33%;
+}
+
+.stats h2 {
+  font-size: 22px;
+}
+
+.stats p {
+  font-size: 11px;
+  color: #00e0ff;
+}
+
+/* CTA */
+.cta {
+  margin-top: 30px;
+}
+
+.cta a {
+  display: inline-block;
+  padding: 15px 28px;
+  border-radius: 50px;
+  background: linear-gradient(90deg, #00c6ff, #0072ff);
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.cta a:hover {
+  transform: scale(1.06);
+}
+
+/* Trust */
+.proof {
+  margin-top: 20px;
+  font-size: 13px;
+  color: #aaa;
+}
+
+/* Footer */
+.footer {
+  margin-top: 20px;
+  font-size: 12px;
+  color: #888;
+}
+</style>
+</head>
+
+<body>
+
+<!-- Background Animation -->
+<div class="bg-animation">
+  <span></span>
+  <span></span>
+  <span></span>
+</div>
+
+<div class="container">
+
+  <!-- Logo -->
+  <div class="logo">
+    <img src="https://i.ibb.co/R4k1PgcD/Screenshot-2026-0318-114844.png" alt="logo">
+  </div>
+
+  <!-- Title -->
+  <h1>GURU STOCKS SIGNAL</h1>
+  <p class="subtitle">ELITE TRADING COMMUNITY</p>
+
+  <!-- Card -->
+  <div class="card">
+    <p>
+      Get high-quality trading signals, daily market analysis, and
+      powerful setups used by serious traders.
+    </p>
+
+    <div class="stats">
+      <div>
+        <h2>92%+</h2>
+        <p>ACCURACY</p>
+      </div>
+      <div>
+        <h2>25K+</h2>
+        <p>TRADERS</p>
+      </div>
+      <div>
+        <h2>PRO</h2>
+        <p>INSIGHTS</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- CTA -->
+  <div class="cta">
+    <a href="https://t.me/yourchannel" target="_blank">
+      JOIN TELEGRAM NOW
+    </a>
+  </div>
+
+  <!-- Trust -->
+  <div class="proof">
+    ⚡ Limited Free Access | Real-Time Signals | No Spam
+  </div>
+
+  <!-- Footer -->
+  <div class="footer">
+    18+ | Trade Responsibly
+  </div>
+
+</div>
+
+</body>
+</html>
